@@ -47,28 +47,7 @@ task sourcesJar(type: Jar, dependsOn: classes) {
     }
 
 
-bintray {
-	user = bintrayUser
-	key = bintrayKey
-    pkg {
-        name = 'salesforce-einstein-vision'
-        repo = 'salesforce-maven'
-        licenses = ['Apache-2.0'] 
-        vcsUrl = 'https://github.com/arvindlnm/einstein-java.git'
-		labels = ['salesforce','einstein','prediction','images']
-		publicDownloadNumbers = true
-		version {
-			name = '1.3.1'
-			desc = 'Java Wrapper for Salesforce Einstein Vision'
-			released  = new Date()
-			vcsTag = '1.3.1'
-			gpg {
-				sign = true
-			}
-		}
-		publications = ['mavenPub']
-    }
-}
+
 
 
 // We're using the new maven-publish plugin here.
