@@ -53,8 +53,8 @@ bintray {
     pkg {
         name = 'salesforce-einstein-vision'
         repo = 'salesforce-maven'
-        licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/muenzpraeger/salesforce-einstein-vision-java.git'
+        licenses = ['Apache-2.0'] 
+        vcsUrl = 'https://github.com/arvindlnm/einstein-java.git'
 		labels = ['salesforce','einstein','prediction','images']
 		publicDownloadNumbers = true
 		version {
